@@ -1,6 +1,6 @@
-# Csharp Programming Question
+# WinForms Questions
 
-`Csharp`となっていますが、`WinForms`に関する問題なので、`VB.NET`でも可能です。
+`C#` と `VB` で回答が可能です。
 
 かなり難しそうと思われる問題でも、既存のコントロールを有効活用することで解決できる問題が大半になっております。
 
@@ -8,8 +8,11 @@
 
 ## 問題例および回答例
 
+### 問題例
 フォームにボタンを配置し、そのボタンをクリックしたらメッセージボックスで`Hello, World!`と表示するプログラムを作成せよ。
 
+
+### 回答例　（C#）
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -21,7 +24,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CsharpProgrammingQuestion {
+namespace WinFormsQuestions {
   public partial class test : Form {
     public test() {
       InitializeComponent();
@@ -35,7 +38,7 @@ namespace CsharpProgrammingQuestion {
 ```
 
 ```csharp
-namespace CsharpProgrammingQuestion {
+namespace WinFormsQuestions {
   partial class test {
     /// <summary>
     /// Required designer variable.
